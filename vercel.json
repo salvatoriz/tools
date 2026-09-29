@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    {"source":"/ia","destination":"/ia/index.html"},
+    {"source":"/termo","destination":"/termo/index.html"},
+    {"source":"/sobre","destination":"/sobre/index.html"},
+    {"source":"/ajuda","destination":"/ajuda/index.html"},
+    {"source":"/status","destination":"/status/index.html"},
+    {"source":"/novidades","destination":"/novidades/index.html"}
+  ]
+}

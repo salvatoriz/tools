@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Noctools — ferramentas para todos</title>
+<meta name="description" content="Noctools: ferramentas, automações e Scott.M AI.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="site-shell">
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="site-sidebar" id="siteSidebar">
+    <div class="side-head"><a class="brand" href="index.html"><span class="brand-mark">N</span><span>Noctools</span></a><button class="side-close" id="sideClose" aria-label="Fechar menu">×</button></div>
+    <nav class="side-nav">
+      <a href="#inicio">Início</a><a href="#ferramentas">Todas as ferramentas</a><a href="ia/">Scott.M AI</a>
+      <div class="side-label">CATEGORIAS</div>
+      <button data-side-cat="Todos">Tudo</button><button data-side-cat="Geradores">Geradores</button><button data-side-cat="Calculadoras">Calculadoras</button><button data-side-cat="Discord">Discord</button><button data-side-cat="Desenvolvedor">Desenvolvedor</button><button data-side-cat="Web">Web</button><button data-side-cat="Texto">Texto</button><button data-side-cat="Imagens">Imagens</button><button data-side-cat="Cores">Cores</button><button data-side-cat="Sorteios">Sorteios</button><button data-side-cat="Automação">Automação</button><button data-side-cat="IA">IA</button>
+    </nav>
+    <div class="side-bottom"><button id="themeBtnSide">◐ <span>Alternar tema</span></button><button id="collapseSide">← <span>Minimizar menu</span></button></div>
+  </aside>
+
+  <div class="site-main" id="siteMain">
+    <header class="topbar">
+      <button class="menu-btn icon-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+      <a class="brand mobile-brand" href="index.html"><span class="brand-mark">N</span><span>Noctools</span></a>
+      <nav class="nav"><a href="#ferramentas">Ferramentas</a><a href="#categorias">Categorias</a><a href="#sobre">Sobre</a><a class="plan-link" href="plano/">Plano</a></nav>
+      <div class="top-actions"><a class="creator-mini" href="https://discord.gg/b59XumS7wJ" target="_blank" rel="noopener">Nocteris</a><a class="plan-top-btn" href="plano/">Plano gratuito</a><button class="icon-btn" id="themeBtn" title="Alternar tema">◐</button><a class="scott-btn" href="ia/">Scott.M AI <span>→</span></a></div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="eyebrow">NOCTOOLS · 25.09.2026</div>
+        <h1>Tudo o que você precisa.<br><span>Em um só lugar.</span></h1>
+        <p>Ferramentas úteis, IA e recursos práticos para estudar, criar, programar e trabalhar melhor.</p>
+        <div class="search-wrap"><span>⌕</span><input id="search" placeholder="Pesquisar uma ferramenta..." autocomplete="off"><kbd>Ctrl K</kbd></div>
+        <div class="quick"><button data-cat="Todos">Tudo</button><button data-cat="Geradores">Geradores</button><button data-cat="Calculadoras">Calculadoras</button><button data-cat="Desenvolvedor">Dev</button><button data-cat="Discord">Discord</button><button data-cat="IA">IA</button></div>
+      </section>
+
+      <section class="ai-feature" id="ia-destaque">
+        <div class="ai-feature-main">
+          <div class="ai-feature-avatar"><img src="scott-avatar.webp" alt="Scott.M"></div>
+          <div><div class="eyebrow">IA NOCTOOLS</div><h2>Scott.M AI</h2><p>Converse, envie arquivos, analise código e use suas próprias conexões de IA. Configure tudo dentro do chat.</p></div>
+        </div>
+        <div class="ai-feature-actions"><a class="neo-button primary-neo" href="ia/">Abrir IA <span>→</span></a><a class="neo-button" href="ia/#ajuda">Como configurar</a></div>
+      </section>
+
+      <section class="section" id="ferramentas"><div class="section-head"><div><small>COLEÇÃO</small><h2>Ferramentas</h2></div><span id="count"></span></div><div id="recent" class="recent hidden"></div><div id="grid" class="tool-grid"></div></section>
+
+      <section class="scott-section" id="scott"><div class="scott-copy"><div class="eyebrow">ASSISTENTE NOCTOOLS</div><h2>Conheça a <span>Scott.M</span></h2><p>Uma IA com conversas salvas, vários modelos, imagens, arquivos e configuração de várias APIs. Você decide quais conexões usar.</p><a class="primary" href="ia/">Abrir Scott.M <span>→</span></a></div><div class="scott-card"><div class="scott-card-avatar"><img src="scott-avatar.webp" alt="Scott.M"></div><strong>Scott.M</strong><span>Pronta para ajudar</span><div class="dots">•••</div></div></section>
+
+      <section class="section" id="categorias"><div class="section-head"><div><small>ORGANIZAÇÃO</small><h2>Categorias</h2></div></div><div class="category-grid" id="categoryGrid"></div></section>
+      <section class="about section" id="sobre"><small>SOBRE O PROJETO</small><h2>Noctools</h2><p>Uma coleção de ferramentas práticas em um único lugar. Criado por <b>𝑺𝒄𝒐𝒕𝒕.𝑴</b> em 25 de setembro de 2026.</p></section>
+    </main>
+    <footer><b>Noctools</b><span>Feito por 𝑺𝒄𝒐𝒕𝒕.𝑴</span><span>25 de setembro de 2026</span><a href="https://discord.gg/b59XumS7wJ" target="_blank" rel="noopener">Discord Nocteris</a></footer>
+  </div>
+</div>
+<script src="app.js"></script>
+<footer class="site-footer"><a href="ia/">Scott.M</a><a href="sobre/">Sobre</a><a href="ajuda/">Ajuda</a><a href="novidades/">Novidades</a><a href="status/">Status</a><a href="termo/">Termos e privacidade</a></footer></body>
+</html>
